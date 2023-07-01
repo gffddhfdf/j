@@ -61,13 +61,6 @@ CoreGui:SetCore("SendNotification", {
     Text = "火速去关注赫赫(怒)"
     Duration = 10,
 })
-local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-    Title = "lnt快点带我",
-    Text = "lnt不带我是吧(怒)"
-    Duration = 10,
-})
   wait(3) 
   local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
 local Library = DarkraiX:Window("114514赫赫(整合)","","",Enum.KeyCode.P);
