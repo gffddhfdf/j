@@ -58,7 +58,7 @@ local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
     Title = "赫赫脚本已启动",
-    Text = "火速去关注赫赫(怒)"
+    Text = "火速去关注赫赫(怒)",
     Duration = 10,
 })
   wait(3) 
