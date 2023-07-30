@@ -1,101 +1,24 @@
 
-local CoreGui = game:GetService("StarterGui")
+本地CoreGui=游戏：GetService("StarterGui")
 
-CoreGui:SetCore("SendNotification", {
-    Title = "确认身份",
-    Text = "正在验证....",
-    Duration = 5,
+CoreGui:SetCore("SendNotification"，{
+title="确认身份"，
+text="正在验证...."，
+持续时间=5，
 })
 
-local a=tostring(game.Players.LocalPlayer.Character);
+当地的a=t字符串(游戏。玩家。本地玩家。性格)；
 
-if a=="DpzTmq"then
+如果a=="DpzTmq"，则
 _G.whitelist=true
-elseif a=="ghcdghdv5"then
+否则，如果a=="ghcdghdv5"，则
 _G.whitelist=true
-elseif a=="gchycugvtdx"then
+否则，如果a=="gchycugvtdx"，则
 _G.whitelist=true
-elseif a=="Zxcvbnm6328"then
+否则，如果a=="Zxcvbnm6328"，则
 _G.whitelist=true
-elseif a=="CN_XS5i21"then
-_G.whitelist=true
-elseif a==""then
-_G.whitelist=true
-elseif a=="Heiy999"then
-_G.whitelist=true
-elseif a=="HeiR654"then
-_G.whitelist=true
-elseif a=="manzijun114514"then
-_G.whitelist=true
-elseif a=="jojochengtaro3"then
-_G.whitelist=true
-elseif a=="ttfkhv"then
-_G.whitelist=true
-elseif a=="ktc114514china1"then
-_G.whitelist=true
-elseif a=="zxgbml"then
-_G.whitelist=true
-elseif a=="CNkdfjvi114514"then
-_G.whitelist=true
-elseif a=="cxklz6666xh"then
-_G.whitelist=true
-elseif a=="JP_cxklz"then
-_G.whitelist=true
-elseif a=="cxklz6666"then
-_G.whitelist=true
-elseif a=="656565rk"then
-_G.whitelist=true
-end
-if _G.whitelist==true then
-    local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-    Title = "验证结果.",
-    Text = a.."验证身份成功(赫赫粉丝)等待时间长一点",
-    Duration = 5,
-})
-local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-    Title = "赫赫脚本已启动",
-    Text = "火速去关注赫赫(怒)",
-    Duration = 10,
-})
-  wait(3) 
-  local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
-local Library = DarkraiX:Window("114514赫赫(整合)","","",Enum.KeyCode.P);
-Tab1 = Library:Tab("赫赫的汉化脚本")
-Tab1:Button("evade脚本！",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gffddhfdf/gfvdvdvdv/main/hydra%20network%20evade%20script.txt"))()
-    print("hi")
-end) 
-Tab1:Button("fe别人可见的大块里面:r15或者r6做各种动作",function()
-     
-    print("hi")
-end) 
-Tab1:Button("在fe别人可见的大块里面:r15动作大全",function()
-     
-    print("hi")
-end)  
-Tab1 = Library:Tab("关于114514赫赫(整合)脚本")
-Tab1:Button("脚本作者是抖音赫赫，不要倒卖(免费脚本)",function()
-     
-    print("hi")
-end)
-Tab1:Button("如果感觉做的还可可以，希望能给我个赞",function()
-     
-    print("hi")
-end)
-Tab1:Toggle("点我关闭脚本",false,function(value)
-DarkraiX:ToggleUi()
-print(value)
-    end)
-Tab1 = Library:Tab("人物调整设置")
-Tab1:Slider("行走速度",1,500,16,function(value)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
-        print(value)
-    end)
-Tab1:Slider("跳跃高度",1,500,16,function(value)
+否则，如果a=="CN_XS5i21"，则
+_
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
         print(value)
     end)
